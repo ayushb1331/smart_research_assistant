@@ -1,26 +1,33 @@
-📄 Smart Research Assistant
+# 📄 Smart Research Assistant
+
 A beginner-friendly AI-powered assistant that can read research papers and answer questions — built with Streamlit and Hugging Face.
 
-📦 Setup Instructions
-Requires Python 3.8 – 3.10 (recommended). Avoid Python 3.12 for compatibility issues.
+## 🚀 Features
 
-1. Clone the repo:
-<pre>'''
-git clone https://github.com/YOUR-USERNAME/smart-research-assistant.git cd smart-research-assistant
- '''</pre>
-2. Create a virtual environment (optional but recommended):
-bash
-Copy
-Edit
-python -m venv venv
-venv\\Scripts\\activate  # On Windows
-3. Install dependencies:
-bash
-Copy
-Edit
+✅ Upload `.pdf` or `.txt` documents  
+✅ Ask free-form questions ("Ask Anything" mode)  
+✅ Auto-generate logical questions and evaluate your answers ("Challenge Me" mode)  
+✅ All answers include a justification from the document  
+✅ Simple web-based interface using **Streamlit**
+
+
+## 📦 Setup Instructions
+
+### 1. Clone the repo
+
+```bash
+git clone https://github.com/YOUR-USERNAME/smart-research-assistant.git
+cd smart-research-assistant
+```
+
+### 2. Install dependencies
+
+```bash
 pip install -r requirements.txt
-4. Run the app:
-bash
-Copy
-Edit
+```
+
+### 3. Run the app
+
+```bash
 streamlit run app.py
+```
